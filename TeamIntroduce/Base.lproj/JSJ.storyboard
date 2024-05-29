@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AiX-on-pwK">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -34,7 +34,7 @@
                                             <constraint firstAttribute="width" constant="230" id="1r0-xm-iw1"/>
                                             <constraint firstAttribute="height" constant="230" id="EFQ-pj-yjV"/>
                                         </constraints>
-                                        <imageReference key="image" image="전성진" renderingMode="original"/>
+                                        <imageReference key="image" image="JSJ" renderingMode="original"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이름" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyK-rA-p1W">
                                         <rect key="frame" x="0.0" y="321" width="230" height="45"/>
@@ -223,6 +223,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="전성진" width="204" height="192"/>
+        <image name="JSJ" width="234" height="312"/>
     </resources>
 </document>
