@@ -16,20 +16,67 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yunhong" translatesAutoresizingMaskIntoConstraints="NO" id="Yjv-Ci-6H6">
-                                <rect key="frame" x="76" y="67" width="240" height="246"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="opreaHouse" translatesAutoresizingMaskIntoConstraints="NO" id="BAv-Im-0hQ">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="안녕하세요 김윤홍입니다 잘부탁드려요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36r-t7-Rz1">
-                                <rect key="frame" x="67" y="386" width="259" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="yunhong" translatesAutoresizingMaskIntoConstraints="NO" id="cj6-cd-YN8">
+                                <rect key="frame" x="132" y="559" width="128" height="140"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="김윤홍" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DS5-Q0-JbO">
+                                <rect key="frame" x="166" y="707" width="94" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ISTP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0F-W9-6zL">
+                                <rect key="frame" x="43" y="760" width="75" height="43"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8AV-PL-RY6">
+                                <rect key="frame" x="175" y="765" width="77" height="32"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="취미: 야구관람" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUd-Ip-cep">
+                                <rect key="frame" x="242" y="766" width="127" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="127" id="0tu-Wa-VEW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DS5-Q0-JbO" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="166" id="0fM-xk-pFD"/>
+                            <constraint firstItem="DS5-Q0-JbO" firstAttribute="top" secondItem="cj6-cd-YN8" secondAttribute="bottom" constant="8" id="0pZ-ON-jZh"/>
+                            <constraint firstItem="DS5-Q0-JbO" firstAttribute="trailing" secondItem="cj6-cd-YN8" secondAttribute="trailing" id="26V-v9-C8g"/>
+                            <constraint firstItem="8AV-PL-RY6" firstAttribute="baseline" secondItem="FUd-Ip-cep" secondAttribute="baseline" id="2IO-Jh-Cr7"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="w0F-W9-6zL" secondAttribute="bottom" constant="15" id="B8m-Uc-7Lz"/>
+                            <constraint firstItem="8AV-PL-RY6" firstAttribute="leading" secondItem="w0F-W9-6zL" secondAttribute="trailing" constant="57" id="En2-Ag-6ra"/>
+                            <constraint firstItem="w0F-W9-6zL" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="701" id="IYV-F6-JCr"/>
+                            <constraint firstItem="8AV-PL-RY6" firstAttribute="centerY" secondItem="FUd-Ip-cep" secondAttribute="centerY" id="L60-k3-vFh"/>
+                            <constraint firstItem="cj6-cd-YN8" firstAttribute="centerX" secondItem="BAv-Im-0hQ" secondAttribute="centerX" id="Rod-WG-fkc"/>
+                            <constraint firstItem="8AV-PL-RY6" firstAttribute="top" secondItem="DS5-Q0-JbO" secondAttribute="bottom" constant="23" id="U81-yY-twV"/>
+                            <constraint firstItem="cj6-cd-YN8" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="500" id="UY7-HE-XiM"/>
+                            <constraint firstItem="BAv-Im-0hQ" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="X0K-YZ-Ym9"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="FUd-Ip-cep" secondAttribute="trailing" constant="24" id="a8Z-b8-9ra"/>
+                            <constraint firstItem="BAv-Im-0hQ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="eOn-1N-QoV"/>
+                            <constraint firstItem="cj6-cd-YN8" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="132" id="gpH-WG-UGy"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="cj6-cd-YN8" secondAttribute="bottom" constant="119" id="h3q-yM-1Vz"/>
+                            <constraint firstItem="8AV-PL-RY6" firstAttribute="centerX" secondItem="DS5-Q0-JbO" secondAttribute="centerX" id="nrI-6o-n2m"/>
+                            <constraint firstItem="w0F-W9-6zL" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="43" id="teb-dA-aEG"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="DS5-Q0-JbO" secondAttribute="bottom" constant="76" id="uIr-Mp-RQH"/>
+                            <constraint firstItem="w0F-W9-6zL" firstAttribute="centerY" secondItem="8AV-PL-RY6" secondAttribute="centerY" id="vXN-AZ-CYR"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="BAv-Im-0hQ" secondAttribute="trailing" id="x6t-jC-zI1"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="8AV-PL-RY6" secondAttribute="trailing" constant="141" id="xK2-YW-ygN"/>
+                            <constraint firstAttribute="bottom" secondItem="BAv-Im-0hQ" secondAttribute="bottom" id="xgd-YR-mK4"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -38,6 +85,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="opreaHouse" width="1125" height="2436"/>
         <image name="yunhong" width="2420" height="3389"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
