@@ -17,7 +17,6 @@ class ViewController: UIViewController {
         
         JSJImageView.layer.cornerRadius = JSJImageView.bounds.width / 2
         KYHImageView.layer.cornerRadius = KYHImageView.bounds.width / 2
-        print("hello")
         
         for subview in stackView.arrangedSubviews {
             subview.layer.cornerRadius = 10
