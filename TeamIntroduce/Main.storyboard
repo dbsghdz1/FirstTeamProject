@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gon-cQ-69R">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -78,9 +78,6 @@
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="자세히"/>
-                                                        <connections>
-                                                            <segue destination="4IB-GR-6mo" kind="show" id="LB5-zI-wzj"/>
-                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.1300586342" green="0.138524226" blue="0.13834534600000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -138,16 +135,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hTn-lA-Hxm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1488" y="-258"/>
-        </scene>
-        <!--KYH-->
-        <scene sceneID="lyc-3D-Gvf">
-            <objects>
-                <viewControllerPlaceholder storyboardName="KYH" id="4IB-GR-6mo" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="EqN-Mo-7CQ"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bc7-kr-5kd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1491" y="-184"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nYT-9h-Qj9">
