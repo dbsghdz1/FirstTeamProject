@@ -24,7 +24,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lEN-kk-t5y">
                                                 <rect key="frame" x="0.0" y="0.0" width="393" height="80"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="전성진" translatesAutoresizingMaskIntoConstraints="NO" id="T8h-18-QvT">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JSJ" translatesAutoresizingMaskIntoConstraints="NO" id="T8h-18-QvT">
                                                         <rect key="frame" x="5" y="5" width="70" height="70"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="T8h-18-QvT" secondAttribute="height" multiplier="1:1" id="cBy-gI-2Qw"/>
@@ -61,7 +61,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v8H-6e-Hof">
                                                 <rect key="frame" x="0.0" y="85" width="393" height="80"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="김윤홍" translatesAutoresizingMaskIntoConstraints="NO" id="H9b-zu-6mw">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KYH" translatesAutoresizingMaskIntoConstraints="NO" id="H9b-zu-6mw">
                                                         <rect key="frame" x="5" y="5" width="70" height="70"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="H9b-zu-6mw" secondAttribute="height" multiplier="1:1" id="yrr-oU-kVE"/>
@@ -160,7 +160,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="김윤홍" width="204" height="192"/>
-        <image name="전성진" width="204" height="192"/>
+        <image name="JSJ" width="234" height="312"/>
+        <image name="KYH" width="234" height="312"/>
     </resources>
 </document>
