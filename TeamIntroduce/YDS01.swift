@@ -16,12 +16,12 @@ class YDS01: UIViewController {
     }
     
     @objc func imageTapped(_ sender: UITapGestureRecognizer) {
-        performSegue(withIdentifier: "magnificationController", sender: self)
+        performSegue(withIdentifier: "YDS03", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "magnificationController" {
-            if let destinationVC = segue.destination as? magnificationController {
+        if segue.identifier == "YDS03" {
+            if let destinationVC = segue.destination as? YDS03 {
                 // 이미지를 전달합니다
                 destinationVC.image = getImage()
             }
