@@ -18,6 +18,7 @@
 		74E9D9202C044D9F0097BC7E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9D91F2C044D9F0097BC7E /* TableViewCell.swift */; };
 		74E9D9222C0458E50097BC7E /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9D9212C0458E50097BC7E /* Team.swift */; };
 		74E9D9242C0464A60097BC7E /* JSJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9D9232C0464A60097BC7E /* JSJViewController.swift */; };
+		DDCD09C42C074B18000AAD91 /* KYH.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCD09C32C074B18000AAD91 /* KYH.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		74E9D91F2C044D9F0097BC7E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		74E9D9212C0458E50097BC7E /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		74E9D9232C0464A60097BC7E /* JSJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSJViewController.swift; sourceTree = "<group>"; };
+		DDCD09C32C074B18000AAD91 /* KYH.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KYH.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				74E9D91F2C044D9F0097BC7E /* TableViewCell.swift */,
 				74220E402C06BAC900565974 /* AJH.storyboard */,
 				74019DF32C05E992004627AA /* Main.storyboard */,
+				DDCD09C32C074B18000AAD91 /* KYH.storyboard */,
 				74E9D9112C0447250097BC7E /* JSJ.storyboard */,
 				74E9D9142C0447260097BC7E /* Assets.xcassets */,
 				74E9D9162C0447260097BC7E /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				74E9D9152C0447260097BC7E /* Assets.xcassets in Resources */,
 				74E9D9182C0447260097BC7E /* Base in Resources */,
 				74E9D9132C0447250097BC7E /* Base in Resources */,
+				DDCD09C42C074B18000AAD91 /* KYH.storyboard in Resources */,
 				74019DF42C05E992004627AA /* Main.storyboard in Resources */,
 				74220E412C06BAC900565974 /* AJH.storyboard in Resources */,
 			);
