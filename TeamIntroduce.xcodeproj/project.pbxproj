@@ -13,6 +13,7 @@
 		6B3D2EEC2C07663400C0BAA5 /* BinggraeMelona-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B3D2EE82C07663400C0BAA5 /* BinggraeMelona-Bold.otf */; };
 		6B3D2EED2C07663400C0BAA5 /* BinggraeMelona.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B3D2EE92C07663400C0BAA5 /* BinggraeMelona.otf */; };
 		6B3D2EEE2C07663400C0BAA5 /* Cafe24Decobox.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B3D2EEA2C07663400C0BAA5 /* Cafe24Decobox.ttf */; };
+		6B3D2EF02C076CAF00C0BAA5 /* YDS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3D2EEF2C076CAF00C0BAA5 /* YDS.storyboard */; };
 		74019DF42C05E992004627AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74019DF32C05E992004627AA /* Main.storyboard */; };
 		74E9D90C2C0447250097BC7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9D90B2C0447250097BC7E /* AppDelegate.swift */; };
 		74E9D90E2C0447250097BC7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9D90D2C0447250097BC7E /* SceneDelegate.swift */; };
@@ -35,6 +36,7 @@
 		6B3D2EE82C07663400C0BAA5 /* BinggraeMelona-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BinggraeMelona-Bold.otf"; sourceTree = "<group>"; };
 		6B3D2EE92C07663400C0BAA5 /* BinggraeMelona.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BinggraeMelona.otf; sourceTree = "<group>"; };
 		6B3D2EEA2C07663400C0BAA5 /* Cafe24Decobox.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cafe24Decobox.ttf; sourceTree = "<group>"; };
+		6B3D2EEF2C076CAF00C0BAA5 /* YDS.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = YDS.storyboard; sourceTree = "<group>"; };
 		74019DF32C05E992004627AA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		74E9D9082C0447250097BC7E /* TeamIntroduce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamIntroduce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E9D90B2C0447250097BC7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				74E9D9192C0447260097BC7E /* Info.plist */,
 				F4374A532C07566D00A29DCA /* JSB.storyboard */,
 				F4374A552C0756B600A29DCA /* JSBVC.swift */,
+				6B3D2EEF2C076CAF00C0BAA5 /* YDS.storyboard */,
 				6B3D2EB12C07600600C0BAA5 /* YDS01.swift */,
 				6B3D2EB22C07600600C0BAA5 /* YDS02.swift */,
 				6B3D2EB02C07600600C0BAA5 /* YDS03.swift */,
@@ -175,6 +178,7 @@
 				6B3D2EED2C07663400C0BAA5 /* BinggraeMelona.otf in Resources */,
 				6B3D2EEC2C07663400C0BAA5 /* BinggraeMelona-Bold.otf in Resources */,
 				74E9D9152C0447260097BC7E /* Assets.xcassets in Resources */,
+				6B3D2EF02C076CAF00C0BAA5 /* YDS.storyboard in Resources */,
 				F4374A542C07566D00A29DCA /* JSB.storyboard in Resources */,
 				74E9D9182C0447260097BC7E /* Base in Resources */,
 				74E9D9132C0447250097BC7E /* Base in Resources */,
