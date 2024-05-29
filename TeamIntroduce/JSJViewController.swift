@@ -14,7 +14,6 @@ class JSJViewController: UIViewController {
     //머지테스트 주석
     //소스트리 테스트
     //진짜 마지막 주석
-    //진진진짜 마지막
     
     @IBOutlet weak var positionLabel: UILabel!
     @IBOutlet weak var subProfileImageView: UIImageView!
