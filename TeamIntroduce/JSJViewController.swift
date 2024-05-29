@@ -11,6 +11,8 @@ class JSJViewController: UIViewController {
 
 //    var data: Team?
     
+    //머지테스트 주석
+    
     @IBOutlet weak var positionLabel: UILabel!
     @IBOutlet weak var subProfileImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
