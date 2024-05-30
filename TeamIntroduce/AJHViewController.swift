@@ -16,7 +16,6 @@ class AJHViewController: UIViewController {
     @IBOutlet weak var instagramLable: UILabel!
     @IBOutlet weak var emailLable: UILabel!
     
-    //푸쉬 연습1
     
     
     //jihyeon 인스턴스 생성
