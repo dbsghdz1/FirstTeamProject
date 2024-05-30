@@ -16,7 +16,7 @@ class AJHViewController: UIViewController {
     @IBOutlet weak var instagramLable: UILabel!
     @IBOutlet weak var emailLable: UILabel!
     
-    
+    //컷밋~~
     
     //jihyeon 인스턴스 생성
     var jihyeon = Introduce(birth: "1995.03.14", mbti: "ENFP", hobby: "Ballet", instagram: "@ahnzihyeon2da", email: "dkswlgus0314@naver.com")
