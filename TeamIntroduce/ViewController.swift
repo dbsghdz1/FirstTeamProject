@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     let teamName: [TeamName] = [
-    TeamName(id: "JSJ", name: "전상진"),
+    TeamName(id: "JSJ", name: "전성진"),
     TeamName(id: "KYH", name: "김윤홍"),
     TeamName(id: "JSB", name: "장수빈"),
     TeamName(id: "YDS", name: "윤대성"),

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="biL-l0-TeM">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="jXr-tV-FhN">
             <objects>
-                <viewController id="biL-l0-TeM" customClass="AJHViewController" customModule="TeamIntroduce" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AJH" id="biL-l0-TeM" customClass="AJHViewController" customModule="TeamIntroduce" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="foc-19-dzY">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,7 +25,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pcm-De-E2b">
                                 <rect key="frame" x="36" y="213.33333333333337" width="321" height="120"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mIj-1p-mao">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jihyeon" translatesAutoresizingMaskIntoConstraints="NO" id="mIj-1p-mao">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="120" id="H2p-Bb-0Vt"/>
@@ -146,7 +146,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="KV3-2b-hYK" firstAttribute="bottom" secondItem="gO0-JW-q6M" secondAttribute="bottom" constant="90" id="113-d2-nI0"/>
-                            <constraint firstItem="E2j-WG-1tP" firstAttribute="top" secondItem="KV3-2b-hYK" secondAttribute="top" constant="60" id="7QZ-NI-nYR"/>
+                            <constraint firstItem="E2j-WG-1tP" firstAttribute="top" secondItem="foc-19-dzY" secondAttribute="top" constant="118.99999999999999" id="7QZ-NI-nYR"/>
                             <constraint firstItem="pcm-De-E2b" firstAttribute="leading" secondItem="KV3-2b-hYK" secondAttribute="leading" constant="36" id="TAN-KH-jLt"/>
                             <constraint firstItem="pcm-De-E2b" firstAttribute="top" secondItem="E2j-WG-1tP" secondAttribute="bottom" constant="50" id="WQw-M8-z0N"/>
                             <constraint firstItem="KV3-2b-hYK" firstAttribute="trailing" secondItem="pcm-De-E2b" secondAttribute="trailing" constant="36" id="c3H-3q-ta0"/>
@@ -169,6 +169,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="jihyeon" width="1873" height="1873"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -23,7 +23,7 @@ class AJHViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        profileImage.image = #imageLiteral(resourceName: "IMG_7605")
+        profileImage.image = .jihyeon
         profileImage.layer.cornerRadius = profileImage.frame.height / 2
         
         birthLable.text = jihyeon.birth
