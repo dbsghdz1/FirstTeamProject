@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FB7D0B62C084037008E31FB /* AJH.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB7D0B52C084037008E31FB /* AJH.storyboard */; };
+		5FB7D0B82C084187008E31FB /* AJHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB7D0B72C084187008E31FB /* AJHViewController.swift */; };
 		6B3D2EEC2C07663400C0BAA5 /* BinggraeMelona-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B3D2EE82C07663400C0BAA5 /* BinggraeMelona-Bold.otf */; };
 		6B3D2EED2C07663400C0BAA5 /* BinggraeMelona.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B3D2EE92C07663400C0BAA5 /* BinggraeMelona.otf */; };
 		6B3D2EEE2C07663400C0BAA5 /* Cafe24Decobox.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B3D2EEA2C07663400C0BAA5 /* Cafe24Decobox.ttf */; };
@@ -30,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FB7D0B52C084037008E31FB /* AJH.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AJH.storyboard; sourceTree = "<group>"; };
+		5FB7D0B72C084187008E31FB /* AJHViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJHViewController.swift; sourceTree = "<group>"; };
 		6B3D2EE82C07663400C0BAA5 /* BinggraeMelona-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BinggraeMelona-Bold.otf"; sourceTree = "<group>"; };
 		6B3D2EE92C07663400C0BAA5 /* BinggraeMelona.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BinggraeMelona.otf; sourceTree = "<group>"; };
 		6B3D2EEA2C07663400C0BAA5 /* Cafe24Decobox.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cafe24Decobox.ttf; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				74019DF32C05E992004627AA /* Main.storyboard */,
 				DDCD09C32C074B18000AAD91 /* KYH.storyboard */,
 				74E9D9112C0447250097BC7E /* JSJ.storyboard */,
+				5FB7D0B52C084037008E31FB /* AJH.storyboard */,
+				5FB7D0B72C084187008E31FB /* AJHViewController.swift */,
 				74E9D9142C0447260097BC7E /* Assets.xcassets */,
 				74E9D9162C0447260097BC7E /* LaunchScreen.storyboard */,
 				74E9D9192C0447260097BC7E /* Info.plist */,
@@ -176,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B3D2EED2C07663400C0BAA5 /* BinggraeMelona.otf in Resources */,
+				5FB7D0B62C084037008E31FB /* AJH.storyboard in Resources */,
 				6B3D2EEC2C07663400C0BAA5 /* BinggraeMelona-Bold.otf in Resources */,
 				74E9D9152C0447260097BC7E /* Assets.xcassets in Resources */,
 				6B3D2EF02C076CAF00C0BAA5 /* YDS.storyboard in Resources */,
@@ -204,6 +211,7 @@
 				6B61463B2C083B9900A05500 /* DSpic.swift in Sources */,
 				F4374A562C0756B600A29DCA /* JSBVC.swift in Sources */,
 				6B61463A2C083B9900A05500 /* DSp2.swift in Sources */,
+				5FB7D0B82C084187008E31FB /* AJHViewController.swift in Sources */,
 				74E9D90E2C0447250097BC7E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
