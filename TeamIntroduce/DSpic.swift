@@ -1,6 +1,6 @@
 import UIKit
 
-class YDS02: UIViewController {
+class DSpic: UIViewController {
 
     @IBOutlet weak var UIButton: UIButton!
     
@@ -26,11 +26,13 @@ class YDS02: UIViewController {
         UIButton.layer.borderColor = UIColor.systemBlue.cgColor
     }
     
+    
     // 버튼이 눌렸을 때 화면전환 구현
     @IBAction func buttonTapped(_ sender: Any) {
-        let storyboared = UIStoryboard(name: "Main", bundle: nil)
-        if let YDS01 = storyboared.instantiateViewController(withIdentifier: "YDS01") as? YDS01{
-            self.present(YDS01, animated: true, completion: nil)
+        let storyboared = UIStoryboard(name: "YDS", bundle: nil)
+        if let dSp2 = storyboared.instantiateViewController(withIdentifier: "dSp2") as? DSp2{
+            self.present(dSp2, animated: true, completion: nil)
+            
         }
     }
 

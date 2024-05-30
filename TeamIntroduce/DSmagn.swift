@@ -1,6 +1,6 @@
 import UIKit
 
-class YDS03: UIViewController {
+class DSmagn: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     
@@ -12,6 +12,8 @@ class YDS03: UIViewController {
         if let imageToDisplay = image {
             imageView.image = imageToDisplay
             
-            self.view.backgroundColor = UIColor.black        }
+            self.view.backgroundColor = UIColor.black 
+            
+        }
     }
 }
