@@ -23,19 +23,19 @@ class ViewController: UIViewController {
         tableView.delegate = self
         }
 }
-
+//섹션의수
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return teamName.count
     }
-    
+    //이름설정과 사진설정
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell") as! TableViewCell
         cell.nameLabel.text = teamName[indexPath.row].name
         cell.profileImgView.image = UIImage(named: teamName[indexPath.row].id)
         return cell
     }
-    
+    //선택시 넘어감
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: teamName[indexPath.row].id, sender: self)
         tableView.deselectRow(at: indexPath, animated: false)
